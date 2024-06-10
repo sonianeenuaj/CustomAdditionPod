@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CustomAdditionPod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CustomAdditionPod.'
+  s.summary          = 'Addition of 2 numbers'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,21 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  created a pod for the addition of 2 numbers
                        DESC
 
-  s.homepage         = 'https://github.com/Sonianeenu-aj/CustomAdditionPod'
+  s.homepage         = 'https://github.com/sonianeenuaj/CustomAdditionPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Sonianeenu-aj' => 'sonianeenu@gmail.com' }
-  s.source           = { :git => 'https://github.com/Sonianeenu-aj/CustomAdditionPod.git', :tag => s.version.to_s }
+  s.author           = { 'sonianeenuaj' => 'sonianeenu@gmail.com' }
+  s.source           = { :git => 'https://github.com/sonianeenuaj/CustomAdditionPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'CustomAdditionPod/Classes/**/*'
+  
+  s.swift_versions = ['5.0']
   
   # s.resource_bundles = {
   #   'CustomAdditionPod' => ['CustomAdditionPod/Assets/*.png']

@@ -1,0 +1,6 @@
+framework module Pods_CustomAdditionPod_Example {
+  umbrella header "Pods-CustomAdditionPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

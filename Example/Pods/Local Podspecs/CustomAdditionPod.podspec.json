@@ -1,0 +1,22 @@
+{
+  "name": "CustomAdditionPod",
+  "version": "0.1.0",
+  "summary": "A short description of CustomAdditionPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sonianeenu-aj/CustomAdditionPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sonianeenu-aj": "sonianeenu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Sonianeenu-aj/CustomAdditionPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CustomAdditionPod/Classes/**/*"
+}
